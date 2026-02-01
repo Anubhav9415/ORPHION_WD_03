@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic-Tac-Toe • Minimax AI</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <main class="game-container">
+
+    <header class="header">
+      <h1>Tic-Tac-Toe</h1>
+      <p class="subtitle">You (X) vs Unbeatable AI (O)</p>
+    </header>
+
+    <div class="status" id="status">Your turn (X)</div>
+
+    <div class="board" id="board"></div>
+
+    <div class="scoreboard">
+      <div class="score-item">
+        <span class="label">You (X)</span>
+        <span class="value" id="x-score">0</span>
+      </div>
+      <div class="score-item draw">
+        <span class="label">Draws</span>
+        <span class="value" id="draws">0</span>
+      </div>
+      <div class="score-item">
+        <span class="label">AI (O)</span>
+        <span class="value" id="o-score">0</span>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="new-game">New Game</button>
+      <button id="reset-scores" class="secondary">Reset Scores</button>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
