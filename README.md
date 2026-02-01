@@ -1,6 +1,6 @@
 Task-3
 
-Project Title-# Tic-Tac-Toe with Unbeatable Minimax AI
+Project Title-# Tic-Tac-Toe with Minmax Algorithm
 
 A modern, responsive Tic-Tac-Toe game featuring an **unbeatable AI opponent** powered by the **Minimax algorithm with Alpha-Beta Pruning** (optional optimization).
 
@@ -57,9 +57,7 @@ This makes the AI **theoretically unbeatable** in Tic-Tac-Toe.
 
 ## Live Demo
 
-( Add your GitHub Pages / Netlify / Vercel link here once deployed )
-
-https://your-username.github.io/tic-tac-toe-minimax/
+https://Anubhav9415.github.io/tic-tac-toe-minimax/
 
 ## Future Improvements (Optional Ideas)
 
